@@ -8,6 +8,7 @@ API for Personal Details
 * H2 Database
 * Swagger UI
 * Junit 5
+* Gradle
 
 ## API endpoints
 
@@ -57,4 +58,10 @@ API for Personal Details
 **1. Clone repository**
 git clone https://github.com/ankitasoni03/person-details-api.git
 
+**2. Run below command for build and run the application**
+gradle clean build bootrun
+
+The application will be running in port 8080. We can test the API using swagger ui or postman. Swagger UI also generates curl commands for API testing.
+
+Swagger UI - http://localhost:8080/swagger-ui.html
 
