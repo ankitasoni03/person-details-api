@@ -32,7 +32,7 @@ public class PersonDetailSwaggerConfig {
                 "1.0",
                 "Terms of service",
                 new Contact("Ankita Soni", "",""),"","",new ArrayList<>()
-                );
+        );
 
     }
 
